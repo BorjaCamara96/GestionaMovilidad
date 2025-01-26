@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>GestionaMovilidad</title>
+    <link rel='stylesheet' href='css/style.css' type='text/css'/>
+</head>
+<body>
+    <table>
+        <form action='solicitarPermiso.php' method='post'>
+            <tr>
+                <td>
+                    <h1>GestionaMovilidad</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select name='permiso'>
+                        <option value=''></option>
+                        <option value='EMT'>EMT</option>
+                        <option value='Taxi'>Taxi</option>
+                        <option value='Servicio'>Servicio</option>
+                        <option value='Residentes'>Residentes</option>
+                        <option value='Hoteles'>Hoteles</option>
+                        <option value='Logistica'>Logistica</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type='submit' name='enviarTipo' value='Solicitar permiso'/>
+                </td>
+            </tr>
+        </form>
+            <tr>
+                <td>
+                    <a href='vehiculosInfractores.php'>Listado de infractores</a>
+                </td>
+            </tr>
+    </table>
+</body>
+</html>
